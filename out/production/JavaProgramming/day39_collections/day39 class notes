@@ -1,0 +1,77 @@
+Java Programming Day39
+
+Topics: Collections
+			- List
+			- Set
+			- Queue
+
+package name: day39_collections
+
+
+Elements: 	5, 0, 10, 8, 25
+
+List = [5, 0, 10, 8, 25]
+
+Data Structures:
+
+    Array
+    Collection
+    Map
+
+
+Collections (I): size is dynamic, supports NON-PRIMITIVES ONLY
+
+        1. List (I): Has Index Number , Allows Duplicates
+
+            1.1 ArrayList (C): array based class
+                            Accessing/Searching the elements are faster
+
+            1.2 LinkedList (C): Node Based Class (doubly linked list)
+                            Insertion/Deletion of elements are faster
+
+            1.3 Vector (C): Same As ArrayList BUT SYNCHRONIZED
+                        Is Synchronized-->thread safety which is slower in multithreading environment
+
+            1.4 Stack (C): Same As ArrayList BUT Synchronized
+                        Last-In-First-Out (LIFO)---> pop()
+
+
+		2. Set (I): Does not have index number, Does NOT allow DUPLICATES
+
+				2.1 HashSet (C): is RANDOM ORDER, Accepts null, faster
+
+				2.1.1 LinkedHashSet (C): Keeps the INSERTION ORDER, Accepts null
+
+				2.2 TreeSet (C): keeps the SORTED ORDER, does NOT accept null, implicitly compares the values
+
+
+
+        3. Queue (I)
+
+Synchronized: Multiple threads are being executed 1 at a time.
+
+            Advantage: thread safety
+            Disadvantage: Slower execution
+
+Process: Execution instance of program application
+
+Thread: A SEQUENCE of execution within the process
+
+
+Creating custom Thread in java:
+        1. by inheriting the Thread Class
+        2. by inheriting Runnable Interface
+
+Multi-threading:
+        Multiple threads being executed simultaneously
+
+Multi-Tasking
+        two or more process are running
+
+
+
+
+
+
+
+

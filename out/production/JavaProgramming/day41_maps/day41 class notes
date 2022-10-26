@@ -1,0 +1,75 @@
+Java Programming Day41
+
+Topics: Maps
+
+Package name: day41_maps
+
+
+Array vs Collection: both supports non primitives
+
+		Array: Size is fixed
+			   Supports both primitives & non-primitives
+			   Can be mult-dimensional
+
+			   Faster than Collection
+
+
+		Collection: Size is dynamic
+					Supports non-primitives ONLY
+					Can not be multi-dimensional
+
+					Ready methods
+
+
+Map (I): Collection of Pairs (key & value)
+		 Supports non-primitives ONLY
+		 Size is dynamic
+		 Key MUST be unique, value can be duplicated
+
+
+		1. HashMap (C): Random order
+						Both key and value can be null
+
+
+		2. LinkedHashMap (C): Insertion order
+							  Both key and value can be null
+
+
+		3. TreeMap (C): Sorted order
+						Key can not be null, value can be null
+
+
+		4. HashTable (C): Random order
+						  Both key and value can NOT be null
+						  Synchronized
+
+
+
+
+Methods of Map:
+        put(): inserts the key and value as a pair to the map
+        can also be used for updating the values of existing keys
+
+        get(): returns the value of the given key from the map
+
+        size() returns total number of pairs
+
+        replace(key, new value): replaces the value of the given key
+
+        remove(key): removes the given key, and it's value from the map
+
+        containsValue(value): checks if the value is contained in the map, return boolean
+
+        containsKey(key): checks if the given key  is contained in the map, returns boolean
+
+        isEmpty(): checks if the map is empty
+
+        equals(MapObject): checks if the map is equal to the given map in the argument, returns boolean
+
+        clear(): removes all keys and values from the map, size will be set to 0
+
+
+
+
+
+
